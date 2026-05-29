@@ -26,10 +26,10 @@ const stats = [
 
 export default function Stats() {
     return (
-        <section className="relative py-24 bg-white">
+        <section className="relative py-24 bg-white overflow-hidden">
             {/* Background Glow */}
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute left-1/2 top-0 -translate-x-1/2 w-[500px] h-[500px] bg-cyan-100 rounded-full blur-[120px] opacity-50" />
+                <div className="absolute left-1/2 top-0 -translate-x-1/2 w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[500px] md:h-[500px] bg-cyan-100 rounded-full blur-[120px] opacity-50" />
             </div>
 
             <div className="max-w-7xl mx-auto px-6 relative">

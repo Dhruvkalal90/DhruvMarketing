@@ -12,8 +12,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Stats />
-      <Services />
+      <Stats/>
+      <Services/>
       <Areas/>
       <CTA/>
       <Footer/>

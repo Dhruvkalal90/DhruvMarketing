@@ -28,7 +28,7 @@ export default function Navbar() {
     <>
       <header
         className={`
-          fixed top-0 left-0 w-full z-50
+          fixed inset-x-0 top-0 z-50
           transition-all duration-300
           ${
             scrolled
@@ -37,10 +37,11 @@ export default function Navbar() {
           }
         `}
       >
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-8 overflow-hidden">
           <div
             className={`
               rounded-2xl
+              overflow-hidden
               border
               backdrop-blur-xl
               transition-all duration-300
